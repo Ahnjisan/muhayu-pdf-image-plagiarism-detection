@@ -294,3 +294,8 @@ python scripts/13_predict_integrated.py --original_path <원본 이미지> --tra
 - Python cache, pytest cache, 가상환경
 - IDE 설정 및 로그 파일
 
+## 👥 팀원
+
+- **안지산**
+- **변개령**
+- **임영재**
