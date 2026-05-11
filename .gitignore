@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw PDFs and generated data
+test_data_set/Origin/**
+test_data_set/Extracted/**
+test_data_set/Transformed_single/**
+test_data_set/Transformed_score/**
+test_data_set/dataset_split/*.csv
+test_data_set/dataset_split/*.txt
+test_data_set/dataset_split/*.xlsx
+
+# Keep directory structure
+!test_data_set/README.md
+!test_data_set/Origin/
+!test_data_set/Origin/.gitkeep
+!test_data_set/Extracted/
+!test_data_set/Extracted/.gitkeep
+!test_data_set/Transformed_single/
+!test_data_set/Transformed_single/.gitkeep
+!test_data_set/Transformed_score/
+!test_data_set/Transformed_score/.gitkeep
+!test_data_set/dataset_split/
+!test_data_set/dataset_split/.gitkeep
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+outputs/checkpoints/**
+
+# Outputs
+outputs/predictions/*.csv
+outputs/analysis/*.csv
+outputs/analysis/*.xlsx
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+outputs/thresholds/*.json
+
+# Keep output dirs
+!outputs/checkpoints/
+!outputs/checkpoints/.gitkeep
+!outputs/thresholds/
+!outputs/thresholds/.gitkeep
+!outputs/predictions/
+!outputs/predictions/.gitkeep
+!outputs/analysis/
+!outputs/analysis/.gitkeep
+!outputs/figures/
+!outputs/figures/.gitkeep
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,17 @@
+paths:
+  base_dir: test_data_set
+  extracted_dir: test_data_set/Extracted
+  transformed_single_dir: test_data_set/Transformed_single
+  transformed_score_dir: test_data_set/Transformed_score
+  output_dir: test_data_set/dataset_split
+
+split:
+  train: 0.8
+  valid: 0.1
+  test: 0.1
+
+pair_generation:
+  total_pairs: 30000
+  positive_ratio: 0.5
+  balance_by_transform_type: true
+  random_seed: 42

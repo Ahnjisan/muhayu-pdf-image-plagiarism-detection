@@ -1,0 +1,7 @@
+methods:
+  - Cosine
+  - SSIM
+  - pHash
+
+default_threshold: 0.75
+thresholds_path: outputs/thresholds/baseline_thresholds.json

@@ -1,0 +1,49 @@
+score_map:
+  light: 1
+  medium: 2
+  heavy: 3
+
+grade_rule:
+  Light: [1, 3]
+  Medium: [4, 6]
+  Heavy: [7, 999]
+
+transformations:
+  crop:
+    light: 0.10
+    medium: 0.20
+    heavy: 0.30
+  resolution:
+    light: 0.10
+    medium: 0.20
+    heavy: 0.30
+  rotation:
+    light: 90
+    medium: 270
+  flip:
+    light: horizontal
+    medium: vertical
+    heavy: both
+  border:
+    light: 0.10
+    medium: 0.20
+    heavy: 0.30
+  grayscale:
+    light: true
+  brightness:
+    light: 1.10
+    medium: 1.20
+    heavy: 1.30
+  contrast:
+    light: 1.10
+    medium: 1.20
+    heavy: 1.30
+  format:
+    light: JPEG
+    medium: PNG
+    heavy: WEBP
+  insertion:
+    light: true
+  concatenation:
+    light: horizontal
+    medium: vertical

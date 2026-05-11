@@ -1,0 +1,16 @@
+numpy
+pandas
+pillow
+opencv-python
+matplotlib
+seaborn
+tqdm
+scikit-learn
+scikit-image
+imagehash
+torch
+torchvision
+pdf2image
+PyYAML
+layoutparser
+# detectron2는 CUDA/PyTorch 버전에 맞춰 별도 설치 필요

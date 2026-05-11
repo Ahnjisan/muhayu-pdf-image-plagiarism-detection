@@ -1,0 +1,17 @@
+model:
+  backbone_type: resnet18
+  embedding_dim: 512
+  loss_type: contrastive
+
+train:
+  batch_size: 32
+  num_workers: 4
+  epochs: 5
+  lr: 0.001
+  device: cuda
+
+paths:
+  checkpoint_dir: outputs/checkpoints
+  threshold_path: outputs/thresholds/best_threshold.json
+  result_path: outputs/predictions/model_results.csv
+  figure_dir: outputs/figures
